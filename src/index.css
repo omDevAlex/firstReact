@@ -11,3 +11,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.rm {
+  padding: 0 15px;
+  height: 30px;
+  background: linear-gradient(180deg, #b94c34 20.83%, #c73a1b 100%);
+  border-radius: 15px;
+  border: none;
+  color: #F1F1F1;
+}
+
+.st {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.addBtn {
+  padding: 0 25px;
+  height: 30px;
+  background: linear-gradient(180deg, #77b358 20.83%, #518934 100%);
+  border-radius: 15px;
+  border: none;
+  color: #F1F1F1;
+  margin-left: 15px;
+}
+
+.addInput {
+  width: 250px;
+  height: 30px;
+  background: #EFEDE4;
+  box-shadow: inset -1px 0px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: none;
+  padding-left: 15px;
+}
+.addInput:focus {
+  outline: none;
+}
+
+.addForm {
+  margin-bottom: 25px;
+}
+
+.addLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 253, 253);
+  filter: drop-shadow(0px 3px 7px rgba(194, 192, 182, 0.75));
+}
+
+.preload {
+  display: flex;
+  justify-content: center;
+
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 6px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
